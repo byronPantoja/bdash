@@ -16,7 +16,7 @@ it('The forEach fn', () => {
     forEach([1, 2, 3], value => {
         sum += value;
     });
-    assert.strictEqual(sum, 7, 'Expected forEach to sum the array');
+    assert.strictEqual(sum, 6, 'Expected forEach to sum the array');
 });
 
 it('The result fn', () => {
